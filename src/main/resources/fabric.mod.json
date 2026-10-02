@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "potatobench",
+	"version": "${version}",
+	"name": "PotatoBench",
+	"description": "/bench measures your real FPS (average, 1% lows, worst frame) and saves every run, so you can compare settings and modpacks fairly.",
+	"authors": ["Hybridash"],
+	"contact": {
+		"sources": "https://github.com/Hybridash/PotatoBench",
+		"issues": "https://github.com/Hybridash/PotatoBench/issues"
+	},
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.hybridash.potatobench.PotatoBenchClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
